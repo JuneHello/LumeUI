@@ -26,10 +26,11 @@ const ComponentNavigation: React.FC = () => {
   };
 
   return (
-    <nav className="w-64 bg-white border-r border-gray-200 h-full overflow-hidden">
-      <div className="p-4">
+    <nav className="w-64 bg-white border-r border-gray-200 h-full flex flex-col">
+      <div className="p-4 flex-shrink-0">
         <h2 className="text-lg font-bold mb-4 text-gray-800">组件列表</h2>
-
+      </div>
+      <div className="flex-1 overflow-y-auto px-4 pb-4">
         {COMPONENT_CATEGORIES.map(category => {
           const hasExamples = category.components.some(c => c.hasExample);
           const isExpanded = expandedCategories.has(category.id);

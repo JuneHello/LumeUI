@@ -5,7 +5,7 @@ import ComponentDetail from '../components/ComponentDetail';
 
 const ComponentHome: React.FC = () => {
   return (
-    <div className="flex h-[calc(100vh-64px)]">
+    <div className="flex h-full w-full">
       {/* 左侧导航 */}
       <ComponentNavigation />
 

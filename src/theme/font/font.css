@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url('https://fh-static.bycsi.com/IBMPlexSans-Regular-ba21ef1a37ee6d15eef777aedf368543.woff2');
+
+  /* src: url('//www.bybit.com/common-static/fhs/IBMPlexSans-Regular-ba21ef1a37ee6d15eef777aedf368543.woff2'); */
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url('https://fh-static.bycsi.com/IBMPlexSans-Medium-64bcd7ec4d98272dc80e04b6d3bf8268.woff2');
+
+  /* src: url('//www.bybit.com/common-static/fhs/IBMPlexSans-Medium-64bcd7ec4d98272dc80e04b6d3bf8268.woff2'); */
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url('https://fh-static.bycsi.com/IBMPlexSans-SemiBold-6aca88931d6e2e67452aa4ac5f61f29d.woff2');
+
+  /* src: url('//www.bybit.com/common-static/fhs/IBMPlexSans-SemiBold-6aca88931d6e2e67452aa4ac5f61f29d.woff2'); */
+  font-weight: 600;
+  font-style: normal;
+}

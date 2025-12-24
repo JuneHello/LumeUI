@@ -1,0 +1,181 @@
+:root {
+  /* Color */
+  --bds-static-black: #121214;
+  --bds-static-gray-popup: #595d61;
+  --bds-static-white: #fff;
+  --bds-static-border-color: #d9d9d9;
+
+  /* new add */
+  --bds-static-active-color: #d18400;
+
+  /*
+     * Typography
+     */
+
+  /* Fonts */
+  --bds-font-family: 'IBM Plex Sans', system-ui, -apple-system,
+    blinkmacsystemfont, 'Segoe UI', roboto, ubuntu;
+
+  /* Font sizes */
+  --bds-font-size-h0: 96px;
+  --bds-font-size-h1: 64px;
+  --bds-font-size-h2: 48px;
+  --bds-font-size-h3: 40px;
+  --bds-font-size-h4: 32px;
+  --bds-font-size-24: 24px;
+  --bds-font-size-20: 20px;
+  --bds-font-size-18: 18px;
+  --bds-font-size-16: 16px;
+  --bds-font-size-14: 14px;
+  --bds-font-size-12: 12px;
+  --bds-font-size-10: 10px;
+
+  /* scale */
+  --bds-scale-80-pct: 0.8;
+
+  /* Line Height */
+  --bds-line-height-h0: 104px;
+  --bds-line-height-h1: 74px;
+  --bds-line-height-h2: 56px;
+  --bds-line-height-h3: 48px;
+  --bds-line-height-h4: 40px;
+  --bds-line-height-24: 32px;
+  --bds-line-height-20: 28px;
+  --bds-line-height-18: 26px;
+  --bds-line-height-16: 24px;
+  --bds-line-height-14: 22px;
+  --bds-line-height-12: 18px;
+  --bds-line-height-10: 14px;
+  --bds-line-height-8: 10px;
+
+  /* Font weights */
+  --bds-font-weight-regular: 400;
+  --bds-font-weight-medium: 500;
+  --bds-font-weight-semibold: 600;
+
+  /* border radius */
+  --bds-border-radius-4: 4px;
+  --bds-border-radius-8: 8px;
+  --bds-border-radius-round: 50%;
+
+  /*
+  * Switch
+  */
+  --bds-input-border-width: 1px;
+
+  /* transition */
+  --bds-transition-fast: 150ms;
+
+  /* badge */
+  --bds-badge-height: 24px;
+  --bds-badge-height-small: 20px;
+  --bds-badge-dot-size: 8px;
+  --bds-badge-dot-size-small: 6px;
+  --bds-badge-padding-horizontal: 8px;
+  --bds-badge-padding-horizontal-small: 6px;
+  --bds-badge-font-size: var(--bds-font-size-14);
+  --bds-badge-font-size-small: var(--bds-font-size-12);
+  --bds-badge-sup-text-color: var(--bds-brand-900-text);
+  --bds-badge-bg-color: var(--bds-red-700-normal);
+  --bds-badge-type-secondary-text-color: var(--bds-static-black);
+  --bds-badge-type-secondary-bg-color: rgba(56, 68, 82, 6%);
+  --bds-badge-sup-type-secondary-text-color: #adb1b8;
+
+  /* select */
+  --bds-trans-hover: rgb(56 68 82 / 6%);
+
+  /* vip */
+  --bds-vip-default-gold: linear-gradient(
+    90deg,
+    #fed1ac 2.06%,
+    #ff9c2e 16.67%,
+    #c9690a 58.66%,
+    #fed1ac 79.13%
+  );
+  --bds-vip-default-gold-tag: linear-gradient(
+    90deg,
+    #ffb05b 0%,
+    #ee8f32 43.92%,
+    #ffa644 79.13%
+  );
+  --bds-vip-default-silver: linear-gradient(90deg, #fff 0%, #939597 106.73%);
+  --bds-non-vip: #adb1b8;
+  --bds-vip1: linear-gradient(
+    90deg,
+    #fca5ac 0.11%,
+    #ffdcdf 33.34%,
+    #944547 66.57%,
+    #fca5ac 99.79%
+  );
+  --bds-vip1-text: linear-gradient(
+    90deg,
+    #fca5ac 0.11%,
+    #b16062 51.7%,
+    #fca5ac 99.79%
+  );
+  --bds-vip2: linear-gradient(
+    90deg,
+    #bccfe2 0.11%,
+    #fff 33.34%,
+    #6e98c1 66.57%,
+    #bccfe2 99.79%
+  );
+  --bds-vip2-text: linear-gradient(
+    90deg,
+    #bccfe2 0.11%,
+    #7eadda 51.95%,
+    #bccfe2 99.79%
+  );
+  --bds-vip3: linear-gradient(
+    90deg,
+    #00c86d 0.11%,
+    #ddfff0 33.34%,
+    #0e8d81 66.57%,
+    #00c86d 99.79%
+  );
+  --bds-vip3-text: linear-gradient(
+    90deg,
+    #48ffac 0.11%,
+    #1ebb74 50.95%,
+    #48ffac 99.79%
+  );
+  --bds-vip4: linear-gradient(
+    90deg,
+    #ebb38b 0.11%,
+    #ffecde 33.34%,
+    #864218 66.57%,
+    #ebb38b 99.79%
+  );
+  --bds-vip4-text: linear-gradient(
+    90deg,
+    #ebb38b 0.11%,
+    #ce7842 53.44%,
+    #ebb38b 99.79%
+  );
+  --bds-vip5: linear-gradient(
+    90deg,
+    #c69f58 0.11%,
+    #ffeecf 33.34%,
+    #a56f2a 66.57%,
+    #c69f58 99.79%
+  );
+  --bds-vip5-text: linear-gradient(
+    90deg,
+    #fbcd79 0.11%,
+    #cf9851 54.94%,
+    #fbcd79 99.79%
+  );
+  --bds-vip-supreme: linear-gradient(
+    90deg,
+    #bcbcbc 0.11%,
+    #f4f4f4 33.34%,
+    #6b6b6b 66.57%,
+    #bcbcbc 99.79%
+  );
+  --bds-vip-supreme-text: linear-gradient(
+    90deg,
+    #ddd 0.11%,
+    #868686 52.94%,
+    #ddd 99.79%
+  );
+}

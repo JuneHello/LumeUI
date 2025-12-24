@@ -1,0 +1,897 @@
+@font-face {
+  font-family: 'moly-iconfont'; /* Project id 3390551 */
+  src: url('moly-iconfont.eot?t=1691379365201'); /* IE9 */
+  src: url('moly-iconfont.eot?t=1691379365201#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('moly-iconfont.woff2?t=1691379365201') format('woff2'),
+    url('moly-iconfont.woff?t=1691379365201') format('woff'),
+    url('moly-iconfont.ttf?t=1691379365201') format('truetype'),
+    url('moly-iconfont.svg?t=1691379365201#iconfont') format('svg');
+}
+
+.moly-iconfont {
+  font-family: 'moly-iconfont';
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bit-icon_hotkey:before {
+  content: '\e6db';
+}
+
+.bit-icon_unblock:before {
+  content: '\e6d9';
+}
+
+.bit-icon_date:before {
+  content: '\e6da';
+}
+
+.bit-icon_perp:before {
+  content: '\e6d7';
+}
+
+.bit-icon_spot:before {
+  content: '\e6d8';
+}
+
+.bit-icon_map-pin:before {
+  content: '\e6d6';
+}
+
+.bit-icon_pc:before {
+  content: '\e6d5';
+}
+
+.bit-icon_pad:before {
+  content: '\e6d4';
+}
+
+.bit-icon_google:before {
+  content: '\e6d3';
+}
+
+.bit-a-icon_applynow:before {
+  content: '\e6d2';
+}
+
+.bit-icon_exit-drawing:before {
+  content: '\e6d1';
+}
+
+.bit-icon_log-out:before {
+  content: '\e6d0';
+}
+
+.bit-icon_layer:before {
+  content: '\e6ce';
+}
+
+.bit-icon_spsx-new1:before {
+  content: '\e6cf';
+}
+
+.bit-a-icon_accountswitch:before {
+  content: '\e6cd';
+}
+
+.bit-icon_drawing:before {
+  content: '\e6cb';
+}
+
+.bit-a-icon_continuousdrawing:before {
+  content: '\e6cc';
+}
+
+.bit-icon_help_circle_solid:before {
+  content: '\e6ca';
+}
+
+.bit-icon_bottom_right:before {
+  content: '\e6bd';
+}
+
+.bit-icon_top_left:before {
+  content: '\e6c7';
+}
+
+.bit-icon_top_right:before {
+  content: '\e6c8';
+}
+
+.bit-icon_bottom_left:before {
+  content: '\e6c9';
+}
+
+.bit-icon-compass:before {
+  content: '\e6bc';
+}
+
+.bit-icon_filter_pressed1:before {
+  content: '\e6c5';
+}
+
+.bit-icon_sort_default1:before {
+  content: '\e6c6';
+}
+
+.bit-icon_add_solid:before {
+  content: '\e6c3';
+}
+
+.bit-icon_remove_solid:before {
+  content: '\e6c4';
+}
+
+.bit-icon_coin_protect:before {
+  content: '\e6c1';
+}
+
+.bit-a-icon_coin_ineffect:before {
+  content: '\e6c2';
+}
+
+.bit-icon_alert_circle_solid:before {
+  content: '\e6bf';
+}
+
+.bit-icon_alert_triangle_solid:before {
+  content: '\e6c0';
+}
+
+.bit-icon_link:before {
+  content: '\e6be';
+}
+
+.bit-icon_safety:before {
+  content: '\e6b5';
+}
+
+.bit-icon_cex_home:before {
+  content: '\e61d';
+}
+
+.bit-icon_web3_home1:before {
+  content: '\e61e';
+}
+
+.bit-icon_recurringbuy:before {
+  content: '\e6b4';
+}
+
+.bit-icon_thumbs_down:before {
+  content: '\e6ba';
+}
+
+.bit-icon_thumbs_up:before {
+  content: '\e6bb';
+}
+
+.bit-icon_remove:before {
+  content: '\e6b9';
+}
+
+.bit-icon_transmitter:before {
+  content: '\e6b7';
+}
+
+.bit-a-icon_fiatdeposit:before {
+  content: '\e6b8';
+}
+
+.bit-icon_resource:before {
+  content: '\e602';
+}
+
+.bit-icon_upcoming:before {
+  content: '\e601';
+}
+
+.bit-icon_IM:before {
+  content: '\e6b6';
+}
+
+.bit-icon_broken:before {
+  content: '\e6b3';
+}
+
+.bit-icon_vip:before {
+  content: '\e6b2';
+}
+
+.bit-icon_circle:before {
+  content: '\e6b1';
+}
+
+.bit-icon_comment:before {
+  content: '\e6b0';
+}
+
+.bit-icon_gift:before {
+  content: '\e6af';
+}
+
+.bit-icon_rm:before {
+  content: '\e600';
+}
+
+.bit-icon_withdraw:before {
+  content: '\e6ab';
+}
+
+.bit-icon_buy:before {
+  content: '\e6ac';
+}
+
+.bit-icon_transferassets:before {
+  content: '\e6ad';
+}
+
+.bit-icon_deposit:before {
+  content: '\e6ae';
+}
+
+.bit-icon_assets_more:before {
+  content: '\e6aa';
+}
+
+.bit-icon_bot:before {
+  content: '\e6a9';
+}
+
+.bit-icon_batch:before {
+  content: '\e6a8';
+}
+
+.bit-icon_filter:before {
+  content: '\e6a6';
+}
+
+.bit-icon_coupon:before {
+  content: '\e6a7';
+}
+
+.bit-icon_web3_assets:before {
+  content: '\e6a5';
+}
+
+.bit-icon_web3_dapps:before {
+  content: '\e6a1';
+}
+
+.bit-icon_web3_rank:before {
+  content: '\e6a2';
+}
+
+.bit-icon_web3_home:before {
+  content: '\e6a3';
+}
+
+.bit-icon_web3_swap:before {
+  content: '\e6a4';
+}
+
+.bit-icon_setting:before {
+  content: '\e6a0';
+}
+
+.bit-icon_adddec:before {
+  content: '\e69f';
+}
+
+.bit-icon_calculator:before {
+  content: '\e69e';
+}
+
+.bit-icon_rate:before {
+  content: '\e69c';
+}
+
+.bit-icon_informationdisclosure:before {
+  content: '\e69d';
+}
+
+.bit-icon_togglechart:before {
+  content: '\e69b';
+}
+
+.bit-icon_copytrading:before {
+  content: '\e677';
+}
+
+.bit-icon_user:before {
+  content: '\e69a';
+}
+
+.bit-icon_quickjump:before {
+  content: '\e676';
+}
+
+.bit-icon_originalorder:before {
+  content: '\e675';
+}
+
+.bit-icon_strategyhistory:before {
+  content: '\e674';
+}
+
+.bit-icon_import:before {
+  content: '\e673';
+}
+
+.bit-icon_extend:before {
+  content: '\e66e';
+}
+
+.bit-icon_lock:before {
+  content: '\e698';
+}
+
+.bit-icon_mail:before {
+  content: '\e699';
+}
+
+.bit-icon_arrowmore:before {
+  content: '\e672';
+}
+
+.bit-icon_stratrgyorder:before {
+  content: '\e671';
+}
+
+.bit-icon_empty:before {
+  content: '\e66a';
+}
+
+.bit-icon_moon:before {
+  content: '\e66b';
+}
+
+.bit-icon_fold:before {
+  content: '\e66c';
+}
+
+.bit-icon_sun:before {
+  content: '\e66d';
+}
+
+.bit-icon_highindex:before {
+  content: '\e66f';
+}
+
+.bit-icon_lowindex:before {
+  content: '\e670';
+}
+
+.bit-icon_usdc:before {
+  content: '\e656';
+}
+
+.bit-icon_loading:before {
+  content: '\e668';
+}
+
+.bit-icon_market:before {
+  content: '\e669';
+}
+
+.bit-icon_fullscreen_on:before {
+  content: '\e654';
+}
+
+.bit-icon_fullscreen_off:before {
+  content: '\e667';
+}
+
+.bit-icon_book:before {
+  content: '\e666';
+}
+
+.bit-icon_tactics:before {
+  content: '\e665';
+}
+
+.bit-icon_x_circle:before {
+  content: '\e663';
+}
+
+.bit-icon_check_circle:before {
+  content: '\e664';
+}
+
+.bit-icon_wallet:before {
+  content: '\e653';
+}
+
+.bit-icon_DApps:before {
+  content: '\e662';
+}
+
+.bit-icon_home:before {
+  content: '\e661';
+}
+
+.bit-icon_phone:before {
+  content: '\e60f';
+}
+
+.bit-icon_screenshot:before {
+  content: '\e696';
+}
+
+.bit-icon_list:before {
+  content: '\e65f';
+}
+
+.bit-icon_chart:before {
+  content: '\e660';
+}
+
+.bit-icon_ktv_hollowcandles:before {
+  content: '\e65e';
+}
+
+.bit-icon_halfscreen_off:before {
+  content: '\e655';
+}
+
+.bit-icon_halfscreen_on:before {
+  content: '\e657';
+}
+
+.bit-icon_ktv_bars:before {
+  content: '\e658';
+}
+
+.bit-icon_ktv_area:before {
+  content: '\e659';
+}
+
+.bit-icon_ktv_baseline:before {
+  content: '\e65a';
+}
+
+.bit-icon_ktv_candles:before {
+  content: '\e65b';
+}
+
+.bit-icon_ktv_line:before {
+  content: '\e65c';
+}
+
+.bit-icon_ktv_heikinashi:before {
+  content: '\e65d';
+}
+
+.bit-icon_clear:before {
+  content: '\e652';
+}
+
+.bit-icon_view_profile:before {
+  content: '\e650';
+}
+
+.bit-icon_download:before {
+  content: '\e62b';
+}
+
+.bit-icon_coin_removed:before {
+  content: '\e64e';
+}
+
+.bit-icon_coin_coming:before {
+  content: '\e64d';
+}
+
+.bit-icon_coin_warn:before {
+  content: '\e64f';
+}
+
+.bit-icon_coin_countdown:before {
+  content: '\e651';
+}
+
+.bit-icon_rays:before {
+  content: '\e64c';
+}
+
+.bit-icon_strategy:before {
+  content: '\e647';
+}
+
+.bit-icon_placeanorder:before {
+  content: '\e648';
+}
+
+.bit-icon_assure:before {
+  content: '\e649';
+}
+
+.bit-icon_base:before {
+  content: '\e64a';
+}
+
+.bit-a-Frame1000005030:before {
+  content: '\e64b';
+}
+
+.bit-icon_details:before {
+  content: '\e645';
+}
+
+.bit-icon_fluctuation:before {
+  content: '\e646';
+}
+
+.bit-icon_pm1:before {
+  content: '\e697';
+}
+
+.bit-icon_placard:before {
+  content: '\e644';
+}
+
+.bit-icon_reduce:before {
+  content: '\e62c';
+}
+
+.bit-icon_add:before {
+  content: '\e643';
+}
+
+.bit-icon_earningstoday:before {
+  content: '\e641';
+}
+
+.bit-icon_cumulativeincome:before {
+  content: '\e642';
+}
+
+.bit-icon_system_exchange_web:before {
+  content: '\e63e';
+}
+
+.bit-icon_system_exchange_app:before {
+  content: '\e63f';
+}
+
+.bit-icon_kline_entrance_app:before {
+  content: '\e640';
+}
+
+.bit-icon_copy:before {
+  content: '\e63d';
+}
+
+.bit-icon_setting_kline:before {
+  content: '\e63b';
+}
+
+.bit-icon_quotes_cutover:before {
+  content: '\e63a';
+}
+
+.bit-icon_sector:before {
+  content: '\e637';
+}
+
+.bit-icon_cutover:before {
+  content: '\e638';
+}
+
+.bit-icon_order:before {
+  content: '\e639';
+}
+
+.bit-icon_manual:before {
+  content: '\e62e';
+}
+
+.bit-icon_trash:before {
+  content: '\e609';
+}
+
+.bit-a-icon_arrowchevron2_left:before {
+  content: '\e60b';
+}
+
+.bit-a-icon_arrowchevron_down:before {
+  content: '\e626';
+}
+
+.bit-a-icon_arrowchevron_right:before {
+  content: '\e62f';
+}
+
+.bit-a-icon_arrowchevron2_down:before {
+  content: '\e632';
+}
+
+.bit-a-icon_arrowchevron_left:before {
+  content: '\e633';
+}
+
+.bit-a-icon_arrowchevron_up:before {
+  content: '\e634';
+}
+
+.bit-a-icon_arrowchevron2_up:before {
+  content: '\e635';
+}
+
+.bit-a-icon_arrowchevron2_right:before {
+  content: '\e636';
+}
+
+.bit-icon_plus:before {
+  content: '\e606';
+}
+
+.bit-icon_close:before {
+  content: '\e605';
+}
+
+.bit-icon_label_upgrade:before {
+  content: '\e63c';
+}
+
+.bit-icon_square:before {
+  content: '\e630';
+}
+
+.bit-icon_subtract:before {
+  content: '\e631';
+}
+
+.bit-icon_data:before {
+  content: '\e62d';
+}
+
+.bit-icon_line_dotted:before {
+  content: '\e628';
+}
+
+.bit-icon_line_point:before {
+  content: '\e629';
+}
+
+.bit-icon_line_bold:before {
+  content: '\e62a';
+}
+
+.bit-icon_line_1:before {
+  content: '\e618';
+}
+
+.bit-icon_line_2:before {
+  content: '\e619';
+}
+
+.bit-icon_sort:before {
+  content: '\e627';
+}
+
+.bit-icon_news:before {
+  content: '\e61a';
+}
+
+.bit-icon_guide:before {
+  content: '\e61b';
+}
+
+.bit-icon_overview:before {
+  content: '\e61c';
+}
+
+.bit-icon_trading:before {
+  content: '\e61f';
+}
+
+.bit-icon_tradingbot:before {
+  content: '\e620';
+}
+
+.bit-icon_transfor:before {
+  content: '\e621';
+}
+
+.bit-icon_newcomer:before {
+  content: '\e622';
+}
+
+.bit-icon_service:before {
+  content: '\e623';
+}
+
+.bit-icon_volume:before {
+  content: '\e624';
+}
+
+.bit-icon_wifi:before {
+  content: '\e625';
+}
+
+.bit-icon_rectangle:before {
+  content: '\e617';
+}
+
+.bit-icon_pencil:before {
+  content: '\e60d';
+}
+
+.bit-icon_arrow:before {
+  content: '\e607';
+}
+
+.bit-icon_dragdrop:before {
+  content: '\e608';
+}
+
+.bit-icon_expand:before {
+  content: '\e60a';
+}
+
+.bit-icon_level:before {
+  content: '\e60c';
+}
+
+.bit-icon_magnetic:before {
+  content: '\e60e';
+}
+
+.bit-icon_retrace:before {
+  content: '\e610';
+}
+
+.bit-icon_parallel:before {
+  content: '\e611';
+}
+
+.bit-icon_ruler:before {
+  content: '\e612';
+}
+
+.bit-icon_vertical:before {
+  content: '\e613';
+}
+
+.bit-icon_trendl:before {
+  content: '\e614';
+}
+
+.bit-icon_spsx:before {
+  content: '\e615';
+}
+
+.bit-icon_video:before {
+  content: '\e616';
+}
+
+.bit-icon_angle:before {
+  content: '\e603';
+}
+
+.bit-icon_cross:before {
+  content: '\e604';
+}
+
+.bit-icon_help:before {
+  content: '\e693';
+}
+
+.bit-icon_edit:before {
+  content: '\e691';
+}
+
+.bit-icon_upto:before {
+  content: '\e692';
+}
+
+.bit-icon_refresh:before {
+  content: '\e694';
+}
+
+.bit-a-icon_morehorizontal:before {
+  content: '\e695';
+}
+
+.bit-icon_globe:before {
+  content: '\e690';
+}
+
+.bit-a-icon_arrowup:before {
+  content: '\e684';
+}
+
+.bit-a-icon_arrowdown:before {
+  content: '\e67e';
+}
+
+.bit-a-icon_arrowleft:before {
+  content: '\e67f';
+}
+
+.bit-a-icon_arrowright:before {
+  content: '\e680';
+}
+
+.bit-a-icon_circleprompt:before {
+  content: '\e681';
+}
+
+.bit-a-icon_assethistory:before {
+  content: '\e682';
+}
+
+.bit-icon_check:before {
+  content: '\e683';
+}
+
+.bit-icon_menu:before {
+  content: '\e685';
+}
+
+.bit-icon_followers:before {
+  content: '\e686';
+}
+
+.bit-icon_exchange:before {
+  content: '\e687';
+}
+
+.bit-icon_earphone:before {
+  content: '\e688';
+}
+
+.bit-icon_scan:before {
+  content: '\e689';
+}
+
+.bit-icon_orders:before {
+  content: '\e68a';
+}
+
+.bit-icon_search:before {
+  content: '\e68b';
+}
+
+.bit-icon_share:before {
+  content: '\e68c';
+}
+
+.bit-a-icon_starno:before {
+  content: '\e68d';
+}
+
+.bit-a-icon_staryes:before {
+  content: '\e68f';
+}
+
+.bit-a-icon_eyeon:before {
+  content: '\e67c';
+}
+
+.bit-a-icon_eyeoff:before {
+  content: '\e67d';
+}
+
+.bit-a-icon_directionleft:before {
+  content: '\e678';
+}
+
+.bit-a-icon_directionup:before {
+  content: '\e679';
+}
+
+.bit-a-icon_directiondown:before {
+  content: '\e67a';
+}
+
+.bit-a-icon_directionright:before {
+  content: '\e67b';
+}
+
+.bit-icon_bell:before {
+  content: '\e68e';
+}

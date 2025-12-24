@@ -81,6 +81,10 @@ out
 # Nuxt.js build / generate output
 .nuxt
 dist
+.claude
+.playwright-mcp
+docs
+.claudeignore
 
 # Gatsby files
 .cache/

@@ -1,0 +1,106 @@
+:root.moly-theme-dark,
+:root.moly-theme-component-dark,
+:root .moly-theme-component-dark,
+:root.moly-theme-light .moly-theme-component-dark {
+  color-scheme: dark;
+
+  /*
+   * UED Custom Color Group
+  */
+
+  /* Text & Icon */
+  --bds-gray-t1-title: #fff;
+  --bds-gray-t2: #adb1b8;
+  --bds-gray-t3: #71757a;
+  --bds-gray-t4-dis: #595d61;
+  --bds-gray-t1-title-revert: #121214;
+
+  /* Element & Background */
+  --bds-gray-ele-border: #404347;
+  --bds-gray-ele-line: #25282c;
+  --bds-gray-ele-edge: #1e2023;
+  --bds-gray-bg-page: #000;
+  --bds-gray-bg-area: #101014;
+  --bds-gray-bg-card: #16171a;
+  --bds-gray-bg-float: #333537;
+  --bds-trans-mask: rgb(1 3 5 / 80%);
+  --bds-trans-hover: rgb(192 210 231 / 12%);
+
+  /* brand color */
+  --bds-brand-600-hover: #ffc35c;
+  --bds-brand-700-normal: #f7a600;
+  --bds-brand-800-pressed: #f0960e;
+  --bds-brand-900-focus: #f0960e;
+  --bds-brand-900-text: #f7a600;
+  --bds-brand-100-bg: rgb(247 166 0 / 16%);
+
+  /* red */
+  --bds-red-600-hover: #fc7272;
+  --bds-red-700-normal: #ef454a;
+  --bds-red-800-pressed: #cc3939;
+  --bds-red-900-focus: #cc3939;
+  --bds-red-100-bg: rgb(239 69 74 / 16%);
+
+  /* green */
+  --bds-green-600-hover: #41bf7e;
+  --bds-green-700-normal: #20b26c;
+  --bds-green-800-pressed: #00944f;
+  --bds-green-900-focus: #00944f;
+  --bds-green-100-bg: rgb(32 178 108 / 16%);
+
+  /* gradient */
+  --bds-gradient-reddish: linear-gradient(90deg, #f90 0%, #ff6a59 100%);
+  --bds-gradient-brand: linear-gradient(
+    133deg,
+    #ffd748 -1.87%,
+    #f7a600 101.87%
+  );
+  --bds-gradient-tab-scroll-left: linear-gradient(
+    270deg,
+    rgba(1, 1, 1, 0%) 0%,
+    #010101 100%
+  );
+  --bds-gradient-tab-scroll-right: linear-gradient(
+    270deg,
+    #010101 0%,
+    rgba(1, 1, 1, 0%) 100%
+  );
+
+  /* box shadow  (Web Only) */
+  --bds-shadow-l1: 0 0 4px 0 rgba(18, 18, 20, 10%);
+  --bds-shadow-l2: 0 0 24px 0 rgba(18, 18, 20, 10%);
+  --bds-focused-halo-brand: 0 0 0 5px var(--bds-brand-100-bg);
+  --bds-focused-halo-green: 0 0 0 5px var(--bds-green-100-bg);
+  --bds-focused-halo-red: 0 0 0 5px var(--bds-red-100-bg);
+
+  /* underline */
+  --bds-underline-dashed: 1px dashed #595d61;
+
+  /* Tag Colors */
+  --bds-tag-text-primary: var(--bds-brand-700-normal);
+  --bds-tag-text-neutral: var(--bds-static-white);
+
+  /* empty */
+  --bds-empty-svg-border: #71757a;
+  --bds-empty-svg-line: #f7a600;
+  --bds-empty-svg-opacity: 0.41;
+  --bds-empty-svg-filter-1: url('#filter1_i_8929_6128');
+  --bds-empty-svg-filter-0: url('#filter0_i_8929_6128');
+
+  /* Checkbox */
+  --bds-checkbox-type-checked: var(--bds-static-black);
+
+  /* hex to rgb */
+  --bds-gray-ele-line-rgb: 32, 33, 36;
+
+  /* non exist in design */
+  --bds-black-white: #000;
+
+  /* Badge */
+  --bds-badge-type-secondary-text-color: #fff;
+  --bds-badge-type-secondary-bg-color: rgba(192, 210, 231, 12%);
+  --bds-badge-sup-type-secondary-text-color: #71757a;
+  --bds-badge-sup-text-color: #f7a600;
+}
+
+/* _base.css */

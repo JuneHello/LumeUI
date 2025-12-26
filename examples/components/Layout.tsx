@@ -1,9 +1,7 @@
 // src/components/Layout.jsx
-import React from 'react';
-import { Outlet, Link, useLocation } from 'react-router-dom';
+import { Outlet, Link } from 'react-router-dom';
 
 function Layout() {
-  const location = useLocation();
 
   return (
     <div style={{ 

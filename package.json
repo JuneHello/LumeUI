@@ -1,5 +1,5 @@
 {
-  "name": "moly-comp",
+  "name": "LumeUI",
   "version": "1.0.0",
   "description": "TypeScript-first component library for wallet-frontend",
   "main": "./dist/index.js",
@@ -21,6 +21,7 @@
   "dependencies": {
     "@emotion/css": "^11.11.2",
     "@radix-ui/react-accordion": "^1.1.2",
+    "@radix-ui/react-avatar": "^1.1.11",
     "@radix-ui/react-dialog": "^1.0.4",
     "@radix-ui/react-dismissable-layer": "^1.0.4",
     "@radix-ui/react-portal": "^1.0.3",

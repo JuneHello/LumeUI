@@ -85,6 +85,7 @@ dist
 .playwright-mcp
 docs
 .claudeignore
+openspec/*
 
 # Gatsby files
 .cache/

@@ -26,7 +26,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**moly-comp** is a TypeScript-first React component library for wallet-frontend. It exports 35+ UI components with a focus on financial/trading interfaces.
+**LumeUI** is a TypeScript-first React component library for wallet-frontend. It exports 35+ UI components with a focus on financial/trading interfaces.
 
 ## Build Commands
 
